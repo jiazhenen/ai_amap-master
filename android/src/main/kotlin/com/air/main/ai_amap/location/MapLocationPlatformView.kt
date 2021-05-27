@@ -83,6 +83,7 @@ class MapLocationPlatformView(binaryMessenger: BinaryMessenger, context: Context
             }
             mMapView.map.setOnMarkerClickListener(this)
             mInfoWindowAdapter.setOnConfirmListener(this);
+            mMapView.map.moveCamera(CameraUpdateFactory.zoomTo(zoom))
             mMapView.map.setInfoWindowAdapter(mInfoWindowAdapter);
         }
     }
