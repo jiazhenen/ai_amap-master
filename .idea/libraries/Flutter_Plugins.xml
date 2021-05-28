@@ -1,6 +1,9 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.flutter-io.cn/ai_amap_web-2.1.0" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>
