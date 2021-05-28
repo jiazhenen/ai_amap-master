@@ -44,6 +44,7 @@ class AiAMapLocationPlatformView:NSObject,FlutterPlatformView,MAMapViewDelegate,
     func initMapView(){
         mapView = MAMapView()
         mapView.delegate = self
+         mMapView.map.moveCamera(CameraUpdateFactory.zoomTo(13.0f))
     }
     
     func view() -> UIView {
