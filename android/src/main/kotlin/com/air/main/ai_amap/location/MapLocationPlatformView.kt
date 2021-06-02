@@ -26,7 +26,7 @@ import com.amap.api.navi.AmapNaviParams
 import com.amap.api.navi.AmapNaviType
 import com.amap.api.navi.AmapPageType
 import com.amap.api.maps.model.Poi
-
+import com.amap.api.maps.CameraUpdateFactory
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
