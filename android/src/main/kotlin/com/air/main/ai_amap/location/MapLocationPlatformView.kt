@@ -545,7 +545,7 @@ class MapLocationPlatformView(binaryMessenger: BinaryMessenger, context: Context
 //        poiList.add(Poi("故宫", LatLng(39.918058, 116.397026), "B000A8UIN8"))
 //终点
 //终点
-        val end =  Poi(endtname, LatLng(endlatitude, endlongitude))
+        val end =  Poi(endtname, LatLng(endlatitude, endlongitude),null)
 // 组件参数配置
 // 组件参数配置
         val params = AmapNaviParams(null, null, end, AmapNaviType.DRIVER, AmapPageType.ROUTE)
